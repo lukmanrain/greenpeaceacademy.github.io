@@ -1,0 +1,220 @@
+<!docktype html>
+<html>
+<head>
+
+<tittle></tittle>
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<div class="topmenu">
+<div class="logo">
+<img src="logo.png"  width="250" height="133">
+
+
+
+
+</div>
+<div class="name">
+<h1>Green Peace Academy Biratnagar-8 morang<h1>
+
+</div>
+<div class="social">
+<ul>
+<li><a href="https://www.facebook.com/"><i class=ion-social-facebook></i></a></li>
+
+<li><a href="https://www.youtube.com/"><i class=ion-social-youtube></i></a></li>
+<li><a href="https://www.whatsapp.com/download"><i class=ion-social-whatsapp></i></a></li>
+<li><a href="https://twitter.com/login"><i class=ion-social-twitter></i></a></li>
+<li><a href="http://instagram.com/"><i class=ion-social-instagram></i></a></li>
+
+
+
+</ul>
+
+
+
+
+</div>
+</div>
+</head>
+
+<body background="full.jpg">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="yak">
+<div class="menu">
+<div class="leftmenu">
+<form>
+
+<input type ="text" name=text" class="rearch" placeholder="rearch here">
+
+
+<input type="submit" name="submit" class="submit" value="search">
+
+
+</form>
+
+
+</div>
+<div class="rightmenu">
+<ul>
+<a href="#"><li style=color:orange;>HOME</li></a>
+     
+ <a href="aboutus.html"><LI>ABOUT US</li></a>
+    
+
+<a href="service.html"><li>SERVICE & FACLITYS</li></a>
+<a href="gallary.html"><li>GALLARY</li></a>
+<a href="#"><li>ADMISSION PRODUCE</li></a>
+<a href="#"><li>DOWNLOAD</li></a>
+<a href="#"><li>LATEST NEWS</li></a>
+<a href="contact us.html"><li>CONTACT US</li></a>
+
+</ul>
+</div>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  
+  <img src="g1.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="2.jpg" style="width:100%" class="img">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  
+  <img src="13.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<table border="2" style="width:100%" height="120%" align="center" class="table">
+
+<tr>
+<td colspan="2" rowspan="2" height="29%" width="50%"><a href="https://www.youtube.com/watch?v=Vqfy4ScRXFQ"><img src="pic.png" height="100%" width="100%"></a></td>
+<td width="25%" height="10%"><a href="principalsms.html"><img src="p.png" height="65%" width="100%"></a></td>
+<td colspan="2"><a href="contact us.html"><img src="contact.png" height="65%" width="100%"></a></td>
+</tr>
+
+<tr>
+<td><a href="https://www.youtube.com/watch?v=a18py61_F_w"><img src="m.png" height="100%" width="100%"></a></td>
+<td colspan="2"><a href="https://www.youtube.com/watch?v=a18py61_F_w"><img src="awards.png" height="100%" width="100%"></a></td>
+
+
+</tr>
+
+<tr>
+<td height="25%" width="25%"><a href="https://www.youtube.com/watch?v=a18py61_F_w"><img src="calendar.png" height="100%" width="100%"></a></td>
+<td height="25%" width="25%"><a href="https://www.youtube.com/watch?v=p_ZozyKFOlY"><img src="end.png" height="100%" width="100%"></a></td>
+<td><a href="https://www.youtube.com/watch?v=sJmYFcy9kWA"><img src="tour.png" height="100%" width="100%"></a></td>
+<td ><a href="https://goo.gl/maps/b922mFVcaudJx8Kc9"><img src="mp.jpg" height="100%" width="100%"></a></td>
+</tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
